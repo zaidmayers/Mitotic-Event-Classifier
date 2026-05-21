@@ -4,17 +4,19 @@ Fluo-N2DL-HeLa-Test/
 data/**/*.tif
 *.zip
 
-# PDFs (large — textbooks, slides, outputs)
-*.pdf
-
 # MATLAB auto-save files
 *.asv
 
-# Generated outputs
-output/
-*.avi
-*.png
-*.pdf
+# Excluded large course materials (not project work)
+Copy of Pattern Recognition Textbook.pdf
+Copy of ECE687_LectureSlides.pdf
+
+# Dataset zip and old repo archive
+Copy of Fluo-N2DL-HeLa-Dataset.zip
+Copy of Github Repo.zip
+
+# Ephemeral export frames (re-generatable via export_frame_pngs.m)
+outputs/frame_*_output.png
 
 # MATLAB session files
 *.mat
