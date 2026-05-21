@@ -2,6 +2,10 @@
 
 A MATLAB pipeline for detecting and classifying cell division (mitosis) events in fluorescent HeLa cell microscopy videos from the [Cell Tracking Challenge](http://celltrackingchallenge.net/2d-datasets/) (Fluo-N2DL-HeLa dataset).
 
+![Annotated cell tracking across consecutive frames — each dot marks a cell centroid, labels are ground-truth tracking IDs](outputs/combined_frames_output.png)
+
+*Fluorescent HeLa cell nuclei tracked across 15 consecutive frames. Each cell is annotated with its tracking ID. A mitotic event is detected when a parent cell disappears and two spatially proximate daughters appear in the next frame.*
+
 ---
 
 ## Overview
