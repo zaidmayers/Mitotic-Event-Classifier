@@ -1,0 +1,21 @@
+# Raw dataset directories (too large for GitHub — download separately)
+Fluo-N2DL-HeLa-Train/
+Fluo-N2DL-HeLa-Test/
+data/**/*.tif
+*.zip
+
+# PDFs (large — textbooks, slides, outputs)
+*.pdf
+
+# MATLAB auto-save files
+*.asv
+
+# Generated outputs
+output/
+*.avi
+*.png
+*.pdf
+
+# MATLAB session files
+*.mat
+*.fig
